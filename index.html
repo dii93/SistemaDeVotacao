@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema De Votação</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="conteiner">
+
+        <header id="cabecalho">
+            <h1>Sistema De Votação</h1>
+            <h5>Descubra Se voçê é Obrigado a Votar!</h5>
+        </header>
+
+        <main id="conteudo">
+            <form id="formulario">
+                <input type="text" id="nome" placeholder="Digite Seu Nome">
+                <input type="number" id="anoNac" placeholder="Digite o Ano de Nacimento">
+                <input type="number" id="anoAtu" placeholder="Digite o Ano Atual">
+                <input type="button" value="Buscar" onclick="btn()" id="botao">
+                <div id="resposta"></div>
+            </form>
+        </main>
+
+        <footer id="rodaPe">
+
+        </footer>
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

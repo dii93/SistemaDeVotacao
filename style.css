@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #34373b;
+}
+
+#conteiner {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    background-color: #8b8a89;
+    border-radius: 50px;
+    left: 35%;
+    margin-top: 8%;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+form {
+    padding: 10px;
+    color: ghostwhite;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+#botao {
+    padding: 15px;
+    color: brown;
+    font-size: 15px;
+}
